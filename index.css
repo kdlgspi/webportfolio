@@ -1,0 +1,227 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Open Sans', sans-serif !important; 
+	font-family: 'Roboto Slab', serif !important;
+}
+
+/* TEXT COLORS */
+
+.text-rich-black {
+  color: #011416 !important;
+}
+
+.text-old-mauve {
+  color: #592040 !important;
+}
+
+.text-raisin-black {
+  color: #342F40 !important;
+}
+
+.text-cyber-grape {
+  color: #4B4073 !important;
+}
+
+.text-bvcrayola {
+  color: #7162A7 !important;
+}
+
+.text-dark-sky-blue {
+  color: #97BECF !important;
+}
+
+.text-lt-cyber-grape {
+  color: #4a349a !important;
+}
+
+.text-lt-dark-sky-blue {
+  color: #659fb8 !important;
+}
+
+.text-roman-silver {
+  color: #80848C !important;
+}
+
+.text-light-gray {
+  color: #D9D2D2 !important;
+}
+
+.text-midpurp {
+  color: #ba5975 !important;
+}
+
+/*BG COLORS*/
+
+.bg-rich-black {
+  background-color: #011416 !important;
+}
+
+.bg-old-mauve {
+  background-color: #592040 !important;
+}
+
+.bg-raisin-black {
+  background-color: #342F40 !important;
+}
+
+.bg-cyber-grape {
+  background-color: #4B4073 !important;
+}
+
+.bg-dark-sky-blue {
+  background-color: #97BECF !important;
+}
+
+.bg-roman-silver {
+  background-color: #80848C !important;
+}
+
+.bg-light-gray {
+  background-color: #D9D2D2 !important;
+}
+
+/* NAVBAR */
+.navbar-supblue .navbar-brand {
+  color: #659fb8;
+}
+
+.navbar-supblue .navbar-brand:hover, .navbar-supblue .navbar-brand:focus {
+  color: #659fb8;
+}
+
+.navbar-supblue .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-supblue .navbar-nav .nav-link:hover, .navbar-supblue .navbar-nav .nav-link:focus {
+  color: rgba(101, 159, 184, 0.75);
+}
+
+.navbar-supblue .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-supblue .navbar-nav .show > .nav-link,
+.navbar-supblue .navbar-nav .active > .nav-link,
+.navbar-supblue .navbar-nav .nav-link.show,
+.navbar-supblue .navbar-nav .nav-link.active {
+  color: #659fb8;
+}
+
+.navbar-supblue .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-supblue .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-supblue .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-supblue .navbar-text a {
+  color: #659fb8;
+}
+
+.navbar-supblue .navbar-text a:hover, .navbar-supblue .navbar-text a:focus {
+  color: #659fb8;
+}
+
+/* SIDEBAR BUTTON */
+
+.btnsidebar {
+  display: inline-block;
+  font-weight: 400;
+  color: #659fb8;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btnsidebar {
+    transition: none;
+  }
+}
+
+.btnsidebar:hover {
+  color: #7162A7;
+  text-decoration: none;
+}
+
+.btnsidebar:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btnsidebar.disabled, .btn:disabled {
+  opacity: 0.65;
+}
+
+.btnsidebar:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+/* BUTTON */
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 0.65;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
