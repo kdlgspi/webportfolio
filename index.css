@@ -14,7 +14,7 @@ body
 /* TEXT COLORS */
 
 .text-rich-black {
-  color: #011416 !important;
+  color: #010D0D !important;
 }
 
 .text-old-mauve {
@@ -58,9 +58,12 @@ body
 }
 
 /*BG COLORS*/
+.bg-image {
+	background-image: url(./images/bg.jpg);
+}
 
 .bg-rich-black {
-  background-color: #011416 !important;
+  background-color: #010D0D !important;
 }
 
 .bg-old-mauve {
@@ -85,6 +88,10 @@ body
 
 .bg-light-gray {
   background-color: #D9D2D2 !important;
+}
+
+.bg-supblue {
+  background-color: #659fb8 !important;
 }
 
 /* NAVBAR */

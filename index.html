@@ -46,7 +46,7 @@
 	<div class="container-fluid text-center mt-5">
 		<div class="row">
 			<!-- Side navbar section -->
-			<div class="card col-xl-2 d-none d-xl-block p-0 bg-rich-black">
+			<div class="card col-xl-1 d-none d-xl-block p-0 bg-rich-black">
 				<div class="accordion" id="accordionExample">
 				
 				<!-- Skills Acquired Section-->
@@ -98,10 +98,11 @@
 		<!-- End of side navbar section -->
 		
 		<!-- Side Content Section -->
-		<div class="col-xl-10 p-0 mt-3" id="aboutme">
+		<div class="col-xl-11 p-0 mt-3" id="aboutme">
 			
 			<!-- Profile Section -->
-			<div class="container-fluid bg-rich-black text-bvcrayola p-md-5">
+			<div class="container-fluid bg-image text-bvcrayola p-md-5">
+				<img class="mt-5 mt-md-0 rounded-circle" src="./images/kat.jpg" width="250">
 				<h1>Kat Legaspi</h1>
 				<h3>Full-Stack Web Developer</h3>
 				
@@ -117,17 +118,17 @@
 				
 			</div>
 			<!-- End of Profile Section -->
-			<!-- Other Projects Section -->
+			<!-- Other Work Section -->
 			<div class="bg-rich-black text-light p-5 mt-3" id="work">
 				<h2 class="mb-3 text-midpurp">Work Experience</h2>
 
-				<!-- Start of Other Projects Container -->
+				<!-- Start of Work1 Container -->
 				<div class="d-lg-flex justify-content-center p-md-5">
 					
 					<!-- Start of Convergys -->
-					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
 					  <div class="card-body">
-					    <img src="./images/convergys.png" class="card-img-top">
+					    <img src="./images/convergys.png" style="width: 18rem;" class="card-img-top img-fluid">
 					    <h5 class="card-title mt-3">Convergys</h5>
 					    <h6 class="card-subtitle text-muted mb-2">Customer Service Representative</h6>
 					  </div>
@@ -135,9 +136,9 @@
 					<!-- End of Convergys -->
 
 					<!-- Start of Castle Card -->
-					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
 					  <div class="card-body">
-					    <img src="./images/castle.png" class="card-img-top">
+					    <img src="./images/castle.png" style="width: 18rem;" class="card-img-top img-fluid">
 					    <h5 class="card-title mt-3">Castle</h5>
 					    <h6 class="card-subtitle text-muted mb-3">Customer Service Representative</h6>
 					    <h6 class="card-subtitle text-muted mb-2">Senior Maintenance Specialist</h6>
@@ -149,9 +150,9 @@
 				<div class="d-lg-flex justify-content-center p-md-5">
 
 					<!-- Start of HER Social App Card -->
-					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
 					  <div class="card-body">
-					    <img src="./images/her.png" class="card-img-top">
+					    <img src="./images/her.jpg" style="width: 10rem;" class="card-img-top img-fluid">
 					    <h5 class="card-title mt-3">HER Social App</h5>
 					    <h6 class="card-subtitle text-muted mb-2">Community Manager</h6>
 					  </div>
@@ -159,9 +160,9 @@
 					<!-- End of HER Social App Card -->
 
 					<!-- Ematic Solutions Card Start -->
-					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
 					  <div class="card-body">
-					    <img src="./images/ematic.png" class="card-img-top">
+					    <img src="./images/ematic.png" style="width: 150px; height: 150px;" class="card-img-top img-fluid">
 					    <h5 class="card-title mt-3">Ematic Solutions</h5>
 					    <h6 class="card-subtitle text-muted mb-3">Junior Customer Success Manager</h6>
 					    <h6 class="card-subtitle text-muted mb-2">Campaign Management Specialist</h6>
@@ -170,9 +171,9 @@
 					<!-- Ematic Solutions Card End-->
 
 				</div>
-				<!-- End of Other Projects Container -->
+				<!-- End of Work Container -->
 			</div>
-			<!-- End of Other Projects Section -->
+			<!-- End of Work Section -->
 
 			<!-- ACTIVITY STARTS HERE -->
 			<!-- Start of Contacts Section -->
@@ -186,7 +187,18 @@
 					    <form>
 					      <div class="form-group">
 					        <label for="name">Name</label>
-					        <input type="text" class="form-control" id="name" placeholder="Your Name">
+					      </div>
+					      <div class="form-row">
+					        <div class="col">
+					          <input type="text" class="form-control" placeholder="First name">
+					        </div>
+					        <div class="col">
+					          <input type="text" class="form-control" placeholder="Last name">
+					        </div>
+					      </div>
+					      <div class="form-group">
+					        <label for="pronouns">Preferred Pronouns (if any)</label>
+					        <input type="email" class="form-control" id="pronouns" placeholder="He/She/They">
 					      </div> 	
 					      <div class="form-group">
 					        <label for="email">Email address</label>
@@ -235,7 +247,7 @@
 					        </div>
 					      </div>
 					      <!-- End of Modal -->
-
+					      </div>
 					    </form>
 					  </div>
 					</div>
@@ -250,8 +262,8 @@
 	<!-- End of Main Content -->
 	
 	<!-- Footer Start -->
-	<footer class="container-fluid text-center text-bvcrayola">
-	<p>	&#169; Kat Legaspi | Web Developer</p>
+	<footer class="fixed-bottom container-fluid text-center text-bvcrayola text-md-rich-black bg-image">
+	<p class="mt-1 pb-0">	&#169; Kat Legaspi | Web Developer</p>
 	</footer>
 	<!-- Footer End -->
 
