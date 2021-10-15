@@ -8,9 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+	<!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" type="text/css">
+
+    <!-- Title -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
-	<title>Kat Legaspi | Online Portfolio</title>
-	<link rel="shortcut icon" type="image/jpg" href="./images/KDL_logo_dark_wb.png">
+	<title>Kat | Portfolio</title>
+	<link rel="shortcut icon" type="image/jpg" href="./assets/KDL_logo_dark_wb.png">
 
 	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,10 +22,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body class="text-center bg-rich-black">
+	
 	<!-- Navbar Start -->
 	<nav class="fixed-top navbar navbar-expand-lg navbar-supblue bg-rich-black">
 	  <a class="navbar-brand" href="#">
-	    <img src="./images/KDL_logo_purp_ts.png" width="30" height="30" alt="">
+	    <img src="./assets/KDL_logo_purp_ts.png" width="30" height="30" alt="">
 	    Kat Legaspi
 	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,147 +47,97 @@
 	  </div>
 	</nav>
 	<!-- Navbar End -->
+	
+	
+	<!-- Jumbotron -->
+	<div class="jumbotron jumbotron-fluid text-dark bg-jumbo" id="landing">
+	  <div class="container text-left text-supblue mt-5">
+	    <h2 class="display-1 mt-5">Kat Legaspi.</h2>
+	    <h3 class="display-3">Future Full-Stack Web Developer.</h3>
+	    <p class="lead">Currently learning and practicing coding at Zuitt Coding Bootcamp.</p>
+	    <a href="#aboutme" class="btn btn-jumbotron">Look around</a>
+	    <a href="https://www.linkedin.com/in/kdlgspi/" class="btn btn-jumbotron">LinkedIn</a>
+	    <a href="https://gitlab.com/katlegaspi" class="btn btn-jumbotron">GitLab</a>
+	    <a href="https://github.com/kdlgspi" class="btn btn-jumbotron">GitHub</a>
+	  </div>
+	</div>
+	<!-- Jumbotron End-->
+
+
 	<!-- Main Content -->
-	<div class="container-fluid text-center mt-5">
-		<div class="row">
-			<!-- Side navbar section -->
-			<div class="card col-xl-1 d-none d-xl-block p-0 bg-rich-black">
-				<div class="accordion" id="accordionExample">
-				
-				<!-- Skills Acquired Section-->
-				  <div class="card bg-rich-black">
-				    <div class="card-header" id="headingOne">
-				      <h2 class="mb-0">
-				        <button class="btnsidebar btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				          Skills Acquired
-				        </button>
-				      </h2>
-				    </div>
-
-				    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-				      <div class="card-body">
-				        <ul class="text-justify text-light-gray" style="list-style: none;">
-				        	<li>Frontend Design &#9745;</li>
-				        	<li>Backend Design</li>
-				        	<li>Full-Stack Development</li>
-				        </ul>
-				      </div>
-				    </div>
-				  </div>
-				<!-- End of Skills Acquired Section -->
-
-				<!-- Languages Section -->
-				  <div class="card bg-rich-black">
-				    <div class="card-header" id="headingTwo">
-				      <h2 class="mb-0">
-				        <button class="btnsidebar btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				          Languages
-				        </button>
-				      </h2>
-				    </div>
-				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				      <div class="card-body">
-				        <ul class="text-justify text-light-gray" style="list-style: none;">
-				        	<li>HTML &#9745;</li>
-				        	<li>CSS &#9745;</li>
-				        	<li>Bootstrap &#9745;</li>
-				        	<li>Javascript</li>
-				        	<li>Java</li>
-				        </ul>
-				      </div>
-				    </div>
-				  </div>
-				  <!-- End of Languages Section -->
-				</div>
-			</div>
-		<!-- End of side navbar section -->
-		
-		<!-- Side Content Section -->
-		<div class="col-xl-11 p-0 mt-3" id="aboutme">
-			
-			<!-- Profile Section -->
-			<div class="container-fluid bg-image text-bvcrayola p-md-5">
-				<img class="mt-5 mt-md-0 rounded-circle" src="./images/kat.jpg" width="250">
-				<h1>Kat Legaspi</h1>
-				<h3>Full-Stack Web Developer</h3>
-				
+	<!-- Profile Section -->
+			<div class="container-fluid p-md-5 text-midpurp" id="aboutme">
+				<img class="mt-5 mt-md-0 rounded-circle" src="./assets/kat.jpg" width="100">
+				<h1><strong>About Me</strong></h1>
 				<!-- Profile Description -->
-				<div class="row mt-5">
+				<div class="row mt-1">
 					<div class="offset-md-2 col-md-8">
-						<p>Currently practicing and learning coding at Zuitt Coding Bootcamp.</p>
-						<p>I enjoy building and breaking things for fun and for work.</p>
+						<p>6 years of customer service experience has lead me into the world of tech startups. Now I'm here to dive deeper into it.</p>
+						<p>During my downtime, I play blockchain games, browse Netflix or just daydream.</p>
 					</div>
 				</div>
 				<!-- End of Profile Description -->
-
-				
 			</div>
 			<!-- End of Profile Section -->
-			<!-- Other Work Section -->
-			<div class="bg-rich-black text-light p-5 mt-3" id="work">
-				<h2 class="mb-3 text-midpurp">Work Experience</h2>
 
-				<!-- Start of Work1 Container -->
-				<div class="d-lg-flex justify-content-center p-md-5">
-					
-					<!-- Start of Convergys -->
-					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-					  <div class="card-body">
-					    <img src="./images/convergys.png" style="width: 18rem;" class="card-img-top img-fluid">
-					    <h5 class="card-title mt-3">Convergys</h5>
-					    <h6 class="card-subtitle text-muted mb-2">Customer Service Representative</h6>
-					  </div>
-					</div>
-					<!-- End of Convergys -->
-
-					<!-- Start of Castle Card -->
-					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-					  <div class="card-body">
-					    <img src="./images/Castle.png" style="width: 18rem;" class="card-img-top img-fluid">
-					    <h5 class="card-title mt-3">Castle</h5>
-					    <h6 class="card-subtitle text-muted mb-3">Customer Service Representative</h6>
-					    <h6 class="card-subtitle text-muted mb-2">Senior Maintenance Specialist</h6>
-					  </div>
-					</div>
-					<!-- End of Castle Card -->
+	<!-- Start of Work1 Container -->
+	<div class="bg-rich-black text-supblue p-5 mt-3" id="work">
+			<h2 class="mb-3">Work Experience</h2>
+			<div class="d-lg-flex justify-content-center p-md-5">
+				
+				<!-- Start of Convergys -->
+				<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+				  <div class="card-body">
+				    <img src="./assets/convergys.png" style="width: 18rem;" class="card-img-top img-fluid">
+				    <h5 class="card-title mt-3">Convergys</h5>
+				    <h6 class="card-subtitle text-muted mb-2">Customer Service Representative</h6>
+				  </div>
 				</div>
+				<!-- End of Convergys -->
 
-				<div class="d-lg-flex justify-content-center p-md-5">
-
-					<!-- Start of HER Social App Card -->
-					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-					  <div class="card-body">
-					    <img src="./images/her.jpg" style="width: 10rem;" class="card-img-top img-fluid">
-					    <h5 class="card-title mt-3">HER Social App</h5>
-					    <h6 class="card-subtitle text-muted mb-2">Community Manager</h6>
-					  </div>
-					</div>
-					<!-- End of HER Social App Card -->
-
-					<!-- Ematic Solutions Card Start -->
-					<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-					  <div class="card-body">
-					    <img src="./images/ematic.png" style="width: 150px; height: 150px;" class="card-img-top img-fluid">
-					    <h5 class="card-title mt-3">Ematic Solutions</h5>
-					    <h6 class="card-subtitle text-muted mb-3">Junior Customer Success Manager</h6>
-					    <h6 class="card-subtitle text-muted mb-2">Campaign Management Specialist</h6>
-					  </div>
-					</div>
-					<!-- Ematic Solutions Card End-->
-
+				<!-- Start of Castle Card -->
+				<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+				  <div class="card-body">
+				    <img src="./assets/castle.png" style="width: 18rem;" class="card-img-top img-fluid">
+				    <h5 class="card-title mt-3">Castle</h5>
+				    <h6 class="card-subtitle text-muted mb-3">Customer Service Representative</h6>
+				    <h6 class="card-subtitle text-muted mb-2">Senior Maintenance Specialist</h6>
+				  </div>
 				</div>
-				<!-- End of Work Container -->
+				<!-- End of Castle Card -->
 			</div>
-			<!-- End of Work Section -->
+			<div class="d-lg-flex justify-content-center p-md-5">
 
-			<!-- ACTIVITY STARTS HERE -->
-			<!-- Start of Contacts Section -->
-			<div class="bg-rich-black text-light p-5" id="contactme" >
+				<!-- Start of HER Social App Card -->
+				<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+				  <div class="card-body">
+				    <img src="./assets/her.jpg" style="width: 10rem;" class="card-img-top img-fluid">
+				    <h5 class="card-title mt-3">HER Social App</h5>
+				    <h6 class="card-subtitle text-muted mb-2">Community Manager</h6>
+				  </div>
+				</div>
+				<!-- End of HER Social App Card -->
+
+				<!-- Ematic Solutions Card Start -->
+				<div class="card bg-rich-black col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+				  <div class="card-body">
+				    <img src="./assets/ematic.png" style="width: 150px; height: 150px;" class="card-img-top img-fluid">
+				    <h5 class="card-title mt-3">Ematic Solutions</h5>
+				    <h6 class="card-subtitle text-muted mb-3">Junior Customer Success Manager</h6>
+				    <h6 class="card-subtitle text-muted mb-2">Campaign Management Specialist</h6>
+				  </div>
+				</div>
+				<!-- Ematic Solutions Card End-->
+			</div>
+	<!-- End of Work Container -->
+
+	<!-- Start of Contacts Section -->
+			<div class="text-supblue p-5" id="contactme" >
 				<h2 class="mb-3">Let's talk!</h2>
 				<div class="d-flex justify-content-center">
 					
 					<!-- Start of Form Card -->
-					<div class="card bg-old-mauve col-12 col-md-8 col-xl-4 mb-5 mb-xl-0">
+					<div class="card bg-dark col-12 col-md-8 col-xl-4 mb-5 mb-xl-0">
 					  <div class="card-body">
 					    <form>
 					      <div class="form-group">
@@ -248,22 +203,20 @@
 					      </div>
 					      <!-- End of Modal -->
 					      </div>
+					      <p>Email: biz.kdlgspi@gmail.com</p>
+					      <p>Contact: +63 915 357 0251</p>
 					    </form>
 					  </div>
 					</div>
 				</div>
 			</div>
-			<!-- End of Contacts Section -->
-			<!-- ACTIVITY ENDS HERE -->
-		</div>
-		<!-- End of Side Content Section -->
-	</div>
-	</div>
+	<!-- End of Contacts Section -->
 	<!-- End of Main Content -->
 	
 	<!-- Footer Start -->
-	<footer class="fixed-bottom container-fluid text-center text-bvcrayola bg-image">
-	<p class="mt-1 pb-0">	&#169; Kat Legaspi | Web Developer | Visit me on <a href="https://www.linkedin.com/in/kdlgspi/">LinkedIn</p>
+	<footer class="fixed-bottom container-fluid text-center text-supblue bg-rich-black">
+	<p class="mt-1 pb-0">
+		&#169; Kat Legaspi 2021</p>
 	</footer>
 	<!-- Footer End -->
 
